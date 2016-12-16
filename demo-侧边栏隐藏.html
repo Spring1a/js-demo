@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>侧边栏隐藏</title>
+	<style type="text/css" media="screen">
+	    body{
+	    	margin:0px;
+	    	padding:0px;
+	    }
+		#div1{
+			background:#090;
+			width:500px;
+			height:500px;
+			position:relative;
+			top:100px;
+			left:-500px;
+		}
+		#div2{
+			background:#f80;
+			width:30px;
+			height:60px;
+			position:absolute;
+			top:220px;
+			rigth:-30px;
+			text-align:center;
+			line-height:30px;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload=function(){
+
+		};
+	</script>
+</head>
+<body>
+	<div id="div1">
+		<div id="div2">分享</div>
+	</div>
+</body>
+</html>
